@@ -1,0 +1,127 @@
+.footer {
+  background: #2f303a;
+
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .logo-first-word {
+    width: 153px;
+    margin-bottom: 20px;
+    color: $title-light-color;
+  }
+}
+
+.footer-logo-address {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: 69px;
+}
+
+.footer-address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-call {
+  padding-top: 72px;
+  margin-right: 94px;
+}
+
+.call {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-light-color;
+}
+
+.social-links-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.footer-map-link {
+  color: $title-light-color;
+}
+
+.footer-mail-link,
+.footer-tel-link {
+  color: $text-light-color;
+}
+
+.footer-form {
+  padding-top: 72px;
+}
+
+.form-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input-email {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &::-moz-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &::-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.icon-send {
+  margin-left: 10px;
+}

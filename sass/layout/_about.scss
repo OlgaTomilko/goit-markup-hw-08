@@ -1,0 +1,40 @@
+.about-us-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-us-background {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  border-radius: 4px;
+
+  background: #f5f4fa;
+}
+
+.about-us-titles {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-dark-color;
+}
+
+.about-us-texts {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team-names-titles {
+  color: $title-dark-color;
+}
