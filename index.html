@@ -15,56 +15,77 @@
     <!-- ШАПКА САЙТА -->
     <header class="header">
       <div class="container">
-        <nav class="navigation">
+        <div class="header-container">
           <a class="logo-first-word link" href="./index.html" lang="en">
             <span class="logo-second-word">Web</span> Studio
           </a>
-          <ul class="navigation-list list">
-            <li class="navigation-list-li">
-              <a class="navigation-list-item link headline" href="./index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="navigation-list-li">
-              <a class="navigation-list-item link" href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-li">
-              <a class="navigation-list-item link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          <button
+            type="button"
+            class="menu-btn"
+            aria-expanded="false"
+            aria-controls="menu-wrapper"
+            data-menu-button
+          >
+            <svg class="header-icons" width="40" height="40">
+              <use class="icon-burger" href="./images/sprite.svg#menu"></use>
+              <use
+                class="icon-close"
+                href="./images/sprite.svg#close-mobile"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-wrapper" data-menu>
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-list-li">
+                <a
+                  class="navigation-list-item link headline"
+                  href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="navigation-list-li">
+                <a class="navigation-list-item link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-list-li">
+                <a class="navigation-list-item link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
 
-        <address class="header-address">
-          <ul class="header-address-list list">
-            <li class="header-address-list-item">
-              <a
-                class="header-mail-link link"
-                href="mailto:info@devstudio.com"
-                lang="en"
-              >
-                <svg class="address-icons" width="16px" height="11px">
-                  <use href="./images/sprite.svg#envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-address-list-item">
-              <a class="header-tel-link link" href="tel:+380961111111">
-                <svg class="address-icons" width="10px" height="15px">
-                  <use href="./images/sprite.svg#tel"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </address>
+          <address class="header-address">
+            <ul class="header-address-list list">
+              <li class="header-address-list-item">
+                <a
+                  class="header-mail-link link"
+                  href="mailto:info@devstudio.com"
+                  lang="en"
+                >
+                  <svg class="address-icons" width="16px" height="11px">
+                    <use href="./images/sprite.svg#envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header-address-list-item">
+                <a class="header-tel-link link" href="tel:+380961111111">
+                  <svg class="address-icons" width="10px" height="15px">
+                    <use href="./images/sprite.svg#tel"></use>
+                  </svg>
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
       <!-- СЕКЦИЯ ГЕРОЙ -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Эффективные решения <br />
@@ -74,9 +95,9 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- О НАС -->
-      <section class="about-us section">
+      <!-- <section class="about-us section">
         <div class="container">
           <h2 hidden>О нас</h2>
           <ul class="about-us-list list">
@@ -133,9 +154,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ЧЕМ МЫ ЗАНИМАЕМСЯ -->
-      <section class="what-we-do">
+      <!-- <section class="what-we-do">
         <div class="container">
           <h2 class="section-titles what-we-do-title">Чем мы занимаемся</h2>
           <ul class="our-doing-list list">
@@ -174,9 +195,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- О КОМАНДЕ -->
-      <section class="command section">
+      <!-- <section class="command section">
         <div class="container">
           <h2 class="section-titles team-title">Наша команда</h2>
           <ul class="team-list list">
@@ -358,9 +379,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- КЛИЕНТЫ -->
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <h2 class="section-titles clients-title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -408,10 +429,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- ПОДВАЛ -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-content container">
         <div class="footer-logo-address">
           <a class="logo-first-word link" href="./index.html" lang="en">
@@ -508,9 +529,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- МОДАЛЬНОЕ ОКНО -->
-    <div data-modal class="overlay is-hidden">
+    <!-- <div data-modal class="overlay is-hidden">
       <form>
         <div class="modal-form">
           <button class="button-close" type="button" data-modal-close>
@@ -596,7 +617,8 @@
           <button type="submit" class="button">Отправить</button>
         </div>
       </form>
-    </div>
+    </div> -->
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
