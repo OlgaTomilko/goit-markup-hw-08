@@ -14,53 +14,72 @@
     <!-- ШАПКА САЙТА -->
     <header class="header">
       <div class="container">
-        <nav class="navigation">
+        <div class="header-container">
           <a class="logo-first-word link" href="./index.html" lang="en">
             <span class="logo-second-word">Web</span> Studio
           </a>
-          <ul class="navigation-list list">
-            <li class="navigation-list-li">
-              <a class="navigation-list-item link" href="./index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="navigation-list-li">
-              <a
-                class="navigation-list-item link headline"
-                href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-li">
-              <a class="navigation-list-item link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          <button
+            type="button"
+            class="menu-btn"
+            aria-expanded="false"
+            aria-controls="menu-wrapper"
+            data-menu-button
+          >
+            <svg class="header-icons" width="40" height="40">
+              <use class="icon-burger" href="./images/sprite.svg#menu"></use>
+              <use
+                class="icon-close"
+                href="./images/sprite.svg#close-mobile"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-wrapper" data-menu>
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-list-li">
+                <a class="navigation-list-item link" href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="navigation-list-li">
+                <a
+                  class="navigation-list-item link headline"
+                  href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-list-li">
+                <a class="navigation-list-item link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
 
-        <address class="header-address">
-          <ul class="header-address-list list">
-            <li class="header-address-list-item">
-              <a
-                class="header-mail-link link"
-                href="mailto:info@devstudio.com"
-                lang="en"
-              >
-                <svg class="address-icons" width="16px" height="11px">
-                  <use href="./images/sprite.svg#envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-address-list-item">
-              <a class="header-tel-link link" href="tel:+380961111111">
-                <svg class="address-icons" width="10px" height="15px">
-                  <use href="./images/sprite.svg#tel"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </address>
+          <address class="header-address">
+            <ul class="header-address-list list">
+              <li class="header-address-list-item">
+                <a
+                  class="header-mail-link link"
+                  href="mailto:info@devstudio.com"
+                  lang="en"
+                >
+                  <svg class="address-icons" width="16px" height="11px">
+                    <use href="./images/sprite.svg#envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="header-address-list-item">
+                <a class="header-tel-link link" href="tel:+380961111111">
+                  <svg class="address-icons" width="10px" height="15px">
+                    <use href="./images/sprite.svg#tel"></use>
+                  </svg>
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
