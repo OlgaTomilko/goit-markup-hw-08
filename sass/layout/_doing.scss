@@ -1,6 +1,7 @@
 .what-we-do {
   padding-bottom: 94px;
 }
+
 .what-we-do-title {
   margin-bottom: 50px;
 }
@@ -33,4 +34,10 @@
 
 .our-doing-thumb {
   position: relative;
+}
+
+@media screen and (max-width: 1119px) {
+  .what-we-do {
+    display: none;
+  }
 }

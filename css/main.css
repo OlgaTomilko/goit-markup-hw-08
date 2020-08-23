@@ -510,6 +510,7 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
+    background: #fff;
   }
   .menu-wrapper.is-open {
     display: block;
@@ -659,30 +660,30 @@ img {
   }
 }
 
-.about-us-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.about-us-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .about-us-background {
-  width: 270px;
+  max-width: 450px;
   height: 120px;
-  padding: 25px 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   border-radius: 4px;
   background: #f5f4fa;
 }
 
+.about-icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-us-titles {
-  margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -690,12 +691,47 @@ img {
 
 .about-us-texts {
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
-.team-names-titles {
-  color: #212121;
+@media screen and (max-width: 480px) {
+  .about-us-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .about-us-background {
+    width: 354px;
+  }
+  .about-us-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-us-list-item {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .about-us-list-item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .about-us-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-us-list {
+    display: flex;
+  }
+  .about-us-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .about-us-background {
+    width: 270px;
+  }
 }
 
 .what-we-do {
@@ -734,6 +770,12 @@ img {
 
 .our-doing-thumb {
   position: relative;
+}
+
+@media screen and (max-width: 1119px) {
+  .what-we-do {
+    display: none;
+  }
 }
 
 .command {
@@ -797,6 +839,10 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team-names-titles {
+  color: #212121;
 }
 
 .clients-title {
