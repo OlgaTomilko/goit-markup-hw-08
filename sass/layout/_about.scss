@@ -19,7 +19,6 @@
 
 .about-us-titles {
   margin-bottom: 10px;
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -37,6 +36,10 @@
 @media screen and (max-width: 480px) {
   .about-us-list-item:not(:last-child) {
     margin-bottom: 30px;
+  }
+
+  .about-us-titles {
+    text-align: center;
   }
 }
 

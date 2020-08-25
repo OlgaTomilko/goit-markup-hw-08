@@ -405,6 +405,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -533,7 +534,7 @@ img {
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 21px;
-    padding-bottom: 21px;
+    padding-bottom: 0px;
   }
   .menu-btn {
     display: none;
@@ -581,7 +582,6 @@ img {
 @media screen and (min-width: 1200px) {
   .header {
     padding-top: 24px;
-    padding-bottom: 24px;
   }
   .header.container {
     padding-left: 115px;
@@ -687,7 +687,6 @@ img {
 
 .about-us-titles {
   margin-bottom: 10px;
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -705,6 +704,9 @@ img {
 @media screen and (max-width: 480px) {
   .about-us-list-item:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .about-us-titles {
+    text-align: center;
   }
 }
 
