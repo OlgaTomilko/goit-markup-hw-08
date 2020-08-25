@@ -11,8 +11,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 450px;
-  height: 609px;
+  width: 93.75%;
 
   padding: 40px;
 
@@ -63,7 +62,7 @@
   cursor: pointer;
 }
 
-.button-close:hover .icon-close {
+.button-close:hover .modal-icon-close {
   fill: $accent-color;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -84,10 +83,11 @@
 
 .form-field {
   position: relative;
+  max-width: 370px;
 }
 
 .form-input {
-  width: 370px;
+  width: 100%;
   height: 40px;
 
   padding-left: 42px;
@@ -164,7 +164,7 @@
 }
 
 .form-area-comment {
-  width: 370px;
+  width: 100%;
   height: 120px;
   resize: none;
   padding: 12px 16px;
@@ -267,9 +267,7 @@
 }
 
 .policy-title {
-  display: inline-block;
   padding-left: 24px;
-  margin-bottom: 30px;
 
   font-weight: 400;
   font-size: 12px;
@@ -287,10 +285,20 @@
   cursor: pointer;
 }
 
+.send-button {
+  margin-top: 31px;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+@media screen and (min-width: 480px) {
+  .modal-form {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -298,6 +306,7 @@
     width: 528px;
     height: 581px;
   }
+
   .form-title {
     line-height: 1.15;
   }

@@ -21,14 +21,9 @@
   }
 }
 
-.team-photos-wrapper {
-  height: 320px;
-  margin-bottom: 30px;
-  overflow: hidden;
-}
-
 .team-photos {
   width: 450px;
+  margin-bottom: 30px;
 }
 
 .team-names-titles {
@@ -92,8 +87,9 @@
     }
   }
 
-  .team-photos-wrapper {
-    height: 260px;
+  .team-photos {
+    width: 354px;
+    height: 374px;
   }
 }
 
@@ -117,12 +113,9 @@
       margin-bottom: 0;
     }
 
-    .team-photos-wrapper {
-      height: 260px;
-    }
-
     .team-photos {
       width: 270px;
+      height: 260px;
     }
   }
 }

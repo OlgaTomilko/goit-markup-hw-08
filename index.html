@@ -164,6 +164,10 @@
             <li class="our-doing-list-item">
               <div class="our-doing-thumb">
                 <img
+                  srcset="
+                    ./images/we-doing/desktop.jpg    1x,
+                    ./images/we-doing/desktop@2x.jpg 2x
+                  "
                   src="./images/we-doing/desktop.jpg"
                   alt="Ноутбук на столе"
                   width="370"
@@ -175,6 +179,10 @@
             <li class="our-doing-list-item">
               <div class="our-doing-thumb">
                 <img
+                  srcset="
+                    ./images/we-doing/mobile.jpg    1x,
+                    ./images/we-doing/mobile@2x.jpg 2x
+                  "
                   src="./images/we-doing/mobile.jpg"
                   alt="Мобильный телефон"
                   width="370"
@@ -186,6 +194,10 @@
             <li class="our-doing-list-item">
               <div class="our-doing-thumb">
                 <img
+                  srcset="
+                    ./images/we-doing/designe.jpg    1x,
+                    ./images/we-doing/designe@2x.jpg 2x
+                  "
                   src="./images/we-doing/designe.jpg"
                   alt="Экран компъютера"
                   width="370"
@@ -203,14 +215,19 @@
           <h2 class="section-titles team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <div class="team-photos-wrapper">
-                <img
-                  class="team-photos"
-                  src="./images/command/nikolay.jpg"
-                  alt="Фото Николая Кучеренко"
-                />
-              </div>
-              <h3 class="team-names-titles">Николай Кучеренко</h3>
+              <img
+                class="team-photos"
+                srcset="
+                  ./images/command/igor.jpg    1x,
+                  ./images/command/igor@2x.jpg 2x
+                "
+                src="./images/command/igor.jpg"
+                alt="Фото Игоря Демьяненко"
+                width="450"
+                height="460"
+              />
+
+              <h3 class="team-names-titles">Игорь Демьяненко</h3>
               <p class="team-profession" lang="en">Product Designer</p>
               <ul class="social-links list">
                 <li class="social-links-item">
@@ -260,14 +277,19 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <div class="team-photos-wrapper">
-                <img
-                  class="team-photos"
-                  src="./images/command/olga.jpg"
-                  alt="Фото Ольги Ивановой"
-                />
-              </div>
-              <h3 class="team-names-titles">Ольга Иванова</h3>
+              <img
+                class="team-photos"
+                srcset="
+                  ./images/command/olga.jpg    1x,
+                  ./images/command/olga@2x.jpg 2x
+                "
+                src="./images/command/olga.jpg"
+                alt="Фото Ольги Репиной"
+                width="450"
+                height="460"
+              />
+
+              <h3 class="team-names-titles">Ольга Репина</h3>
               <p class="team-profession" lang="en">Frontend Developer</p>
               <ul class="social-links list">
                 <li class="social-links-item">
@@ -301,14 +323,19 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <div class="team-photos-wrapper">
-                <img
-                  class="team-photos"
-                  src="./images/command/andrey.jpg"
-                  alt="Фото Андрея Шевченко"
-                />
-              </div>
-              <h3 class="team-names-titles">Андрей Шевченко</h3>
+              <img
+                class="team-photos"
+                srcset="
+                  ./images/command/nikolay.jpg    1x,
+                  ./images/command/nikolay@2x.jpg 2x
+                "
+                src="./images/command/nikolay.jpg"
+                alt="Фото Николая Тарасова"
+                width="450"
+                height="460"
+              />
+
+              <h3 class="team-names-titles">Николай Тарасов</h3>
               <p class="team-profession" lang="en">Marketing</p>
               <ul class="social-links list">
                 <li class="social-links-item">
@@ -342,14 +369,19 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <div class="team-photos-wrapper">
-                <img
-                  class="team-photos"
-                  src="./images/command/ivan.jpg"
-                  alt="Фото Ивана Николаева"
-                />
-              </div>
-              <h3 class="team-names-titles">Иван Николаев</h3>
+              <img
+                class="team-photos"
+                srcset="
+                  ./images/command/misha.jpg    1x,
+                  ./images/command/misha@2x.jpg 2x
+                "
+                src="./images/command/misha.jpg"
+                alt="Фото Михаила Ермакова"
+                width="450"
+                height="460"
+              />
+
+              <h3 class="team-names-titles">Михаил Ермаков</h3>
               <p class="team-profession" lang="en">UI Designer</p>
               <ul class="social-links list">
                 <li class="social-links-item">
@@ -546,7 +578,7 @@
       <form>
         <div class="modal-form">
           <button class="button-close" type="button" data-modal-close>
-            <svg class="icon-close" width="18px" height="18px">
+            <svg class="modal-icon-close" width="18px" height="18px">
               <use href="./images/sprite.svg#close"></use>
             </svg>
           </button>
@@ -625,7 +657,7 @@
             </label>
             <a class="policy-link" href=""> Условия договора</a>
           </div>
-          <button type="submit" class="button">Отправить</button>
+          <button type="submit" class="send-button button">Отправить</button>
         </div>
       </form>
     </div>
