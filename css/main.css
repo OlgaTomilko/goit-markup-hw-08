@@ -312,7 +312,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .form-label {
-    top: 8px;
+    top: 6px;
   }
 }
 
@@ -356,7 +356,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .form-label-comment {
-    top: 8px;
+    top: 6px;
   }
 }
 
