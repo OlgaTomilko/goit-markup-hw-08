@@ -244,6 +244,7 @@ img {
 }
 
 .form-field:nth-child(7) {
+  max-width: 448px;
   margin-bottom: 31px;
 }
 
