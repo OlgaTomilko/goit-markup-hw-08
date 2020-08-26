@@ -311,8 +311,9 @@ img {
 }
 
 @media screen and (max-width: 479px) {
-  .form-label {
-    top: 6px;
+  .form-input:focus + .form-label,
+  .form-input:not(:placeholder-shown) + .form-label {
+    transform: translate(-30px, -25px);
   }
 }
 
@@ -355,8 +356,9 @@ img {
 }
 
 @media screen and (max-width: 479px) {
-  .form-label-comment {
-    top: 6px;
+  .form-area-comment:not(:placeholder-shown) + .form-label-comment,
+  .form-area-comment:focus + .form-label-comment {
+    transform: translate(-5px, -25px);
   }
 }
 

@@ -191,10 +191,10 @@
     -ms-transform: translate(-30px, -30px);
 
     transform: translate(-30px, -30px);
-  }
 
-  @media screen and (max-width: 479px) {
-    top: 6px;
+    @media screen and (max-width: 479px) {
+      transform: translate(-30px, -25px);
+    }
   }
 }
 
@@ -259,10 +259,10 @@
     -ms-transform: translate(-5px, -30px);
 
     transform: translate(-5px, -30px);
-  }
 
-  @media screen and (max-width: 479px) {
-    top: 6px;
+    @media screen and (max-width: 479px) {
+      transform: translate(-5px, -25px);
+    }
   }
 }
 
