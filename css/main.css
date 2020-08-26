@@ -310,6 +310,12 @@ img {
   transform: translate(-30px, -30px);
 }
 
+@media screen and (max-width: 479px) {
+  .form-label {
+    top: 8px;
+  }
+}
+
 .form-area-comment {
   width: 100%;
   height: 120px;
@@ -346,6 +352,12 @@ img {
   -webkit-transform: translate(-5px, -30px);
   -ms-transform: translate(-5px, -30px);
   transform: translate(-5px, -30px);
+}
+
+@media screen and (max-width: 479px) {
+  .form-label-comment {
+    top: 8px;
+  }
 }
 
 .check-icon {
