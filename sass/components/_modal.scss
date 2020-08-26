@@ -85,11 +85,20 @@
   letter-spacing: 0.03em;
 
   color: $title-dark-color;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 15px;
+  }
 }
 
 .form-field {
   position: relative;
   max-width: 370px;
+  margin-bottom: 28px;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 14px;
+  }
 }
 
 .form-input {
@@ -99,7 +108,7 @@
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 28px;
+
   cursor: pointer;
   outline: transparent;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -185,6 +194,10 @@
 
   &:focus {
     border: 1px solid $accent-color;
+  }
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 10px;
   }
 }
 
